@@ -29,7 +29,6 @@ const reviewSchema = new mongoose.Schema({
     - Rating: Mandatory, 1-5 stars.
     - Title: Required, 3-100 characters.
     - Comment: Required, 10-2000 characters.
-    ==========================================================================
   */
   rating: {
     type: Number,
