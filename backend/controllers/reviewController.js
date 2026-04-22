@@ -9,9 +9,9 @@ const Service = require('../models/Service');
 const createReview = async (req, res) => {
   /* 
     BACKEND VALIDATION - CREATE REVIEW
-     Rating: 1-5 stars (Mandatory via Mongoose)
-     Title: 3-100 characters (Mandatory via Mongoose)
-     Comment: 10-2000 characters (Mandatory via Mongoose)
+     Rating: 1-5 stars
+     Title: 3-100 characters 
+     Comment: 10-2000 characters
      Eligibility: Must be a verified purchaser/completed booking.
      Uniqueness: One review per user/item.
   */
